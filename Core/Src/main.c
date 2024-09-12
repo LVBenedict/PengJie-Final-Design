@@ -69,16 +69,6 @@ extern float distance_r;
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
 
-//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-//{// 定时器中断
-//	if(htim==&htim2)
-//	{// 灰度传感器巡线:10ms定时器中断
-//		sensor_data = gray_serial_read();// 读一次灰度传感器值
-//		extractSensorData(sensor_data, sensor); //分离变量
-//		Gray_Sensor_Ctrl_PID(); //灰度传感器巡线
-//	}
-//}
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
